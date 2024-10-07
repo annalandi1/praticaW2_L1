@@ -81,7 +81,7 @@ let name2= "John"
 let names12 = (name1 === name2)
 console.log(names12)
 
-let names12lowerCase = (name1.toLowerCase === name2.toLowerCase)
+let names12lowerCase = name1.toLowerCase() === name2.toLowerCase()
 console.log(names12lowerCase)
 
 

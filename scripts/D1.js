@@ -12,9 +12,9 @@ REGOLE
 */
 
 // i datatype in JavaScript servono a definire il valore di una variabile e sono diversi tipi: 
-let string = 'ciao' // 
-let number = 145 // numeri
-let boolean = true // restituisce un valore che serve a dichiarare la veridicitá o falsitá dei valori inseriti
+let string = 'ciao' // é una sequenza di caratteri.
+let number = 145 // una sequenza di caratteri alfanumerici.
+let boolean = true // restituisce un valore che serve a dichiarare la veridicitá o falsitá dei valori inseriti.
 // let undefined
  // se non viene assegnato nessun valore e verrá visualizzato automaticamente "undefined"
 // let vuoto = null 
@@ -59,7 +59,7 @@ console.log(age)
 
 // const age= 20
 // console.log(age) 
-// la console restituirá un "SyntaxError" evidenziando che non si puó ridichiarare la variabile perche costante.
+// la console restituirá un "SyntaxError" evidenziando che non si puó ridichiarare la variabile perché costante.
 
 
 /* ESERCIZIO 6
@@ -77,9 +77,11 @@ console.log(sottrazione)
 
 let name1= "john"
 let name2= "John"
-name2.toLowerCase();
+
 let names12 = (name1 === name2)
 console.log(names12)
- 
-console.log(name2.toLowerCase()) //non ho capio
+
+let names12lowerCase = (name1.toLowerCase === name2.toLowerCase)
+console.log(names12lowerCase)
+
 
